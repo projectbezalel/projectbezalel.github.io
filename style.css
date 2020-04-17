@@ -1442,3 +1442,9 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+@media screen (max-width: 480px){
+  .js-fullheight {
+    background-image: url(sneeuw-bedekte-berg-omringd-door-zee-van-wolken_h2000.jpg);
+  }
+}
