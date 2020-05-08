@@ -395,16 +395,18 @@ body {
   }
 }
 #fh5co-hero .fh5co-intro > div h2 {
-  font-size: 70px;
-  line-height: 87px;
+  font-size: 150px;
+  font-family: pistoleer;
+  line-height: 100px;
   font-weight: 100;
   color: white;
 }
 @media screen and (max-width: 992px) {
   #fh5co-hero .fh5co-intro > div h2 {
-    font-size: 40px;
-    line-height: 57px;
+    font-size: 90px;
+    line-height: 60px;
     text-align: center;
+    font-family: pistoleer;
   }
 }
 #fh5co-hero .fh5co-intro > div h3 {
