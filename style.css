@@ -458,7 +458,7 @@ body {
 #fh5co-hero .fh5co-learn-more a {
   display: block;
 }
-#fh5co-hero .fh5co-learn-more a .text {
+#fh5co-hero .fh5co-learn-more a .arrowtext {
   display: block;
   color: rgba(255, 255, 255, 0.5);
   margin-bottom: 20px;
@@ -1492,21 +1492,7 @@ body {
    width: 100%;
    float: left;
    margin-bottom: 3em; }
- .property .property-details h3 {
-   margin-bottom: 10px; }
- .property .property-details .price {
-   font-size: 24px;
-   display: inline-block;
-   font-weight: 400;
-   margin-bottom: 10px;
-   color: #44C662; }
- .property .property-details .address {
-   border-top: 1px solid rgba(0, 0, 0, 0.05);
-   display: block;
-   font-size: 13px;
-   padding-top: 10px; }
- .property .property-details .address i {
-   margin-right: 10px; }
+
  .property .list-details {
    position: absolute;
    bottom: 0;
@@ -1568,7 +1554,7 @@ body {
          margin-left: 10px; }
 
          .property .property-details h3 {
-           margin-bottom: 10px; }
+           margin-bottom: 20px; }
          .property .property-details .price {
            font-size: 24px;
            display: inline-block;
@@ -1608,10 +1594,10 @@ body {
                    -webkit-transition: 0.3s;
                    -o-transition: 0.3s;
                    transition: 0.3s; }
-                 .fh5co-property:hover, .fh5co-property:focus {
+                /* .fh5co-property:hover, .fh5co-property:focus {
                    -webkit-box-shadow: inset 0px -120px 115px -23px rgba(0, 0, 0, 0.85);
                    -moz-box-shadow: inset 0px -120px 115px -23px rgba(0, 0, 0, 0.85);
-                   box-shadow: inset 0px -120px 115px -23px rgba(0, 0, 0, 0.85); }
+                   box-shadow: inset 0px -120px 115px -23px rgba(0, 0, 0, 0.85); } */
                  .fh5co-property .status {
                    position: absolute;
                    top: 12px;
@@ -1668,3 +1654,66 @@ body {
 
                          #fh5co-hero .flexslider .slider-text > .slider-text-inner .heading-section {
                            font-size: 50px; }
+
+                           .button.blue {
+                             color: #fff !important;
+                             font-family: "Roboto";
+                             font-size: 16px;
+                             padding: 5px 20px;
+                             border-radius: 25px;
+                             display: inline-block;
+                             background-image: linear-gradient(25deg, #1270e4 0%, #58c0ff 100%);
+                             margin-right: 15px;
+                           }
+                           .button.red {
+                             color: #fff !important;
+                             font-family: "Roboto";
+                             font-size: 16px;
+                             padding: 5px 20px;
+                             border-radius: 25px;
+                             display: inline-block;
+                             background-image: linear-gradient(25deg, #941751 0%, #FF7E79 100%);
+                             margin-right: 15px;
+                           }
+                           .button:hover {
+                             box-shadow: 0px 2px 5px #cccccc;
+                             transition: all 0.3s;
+                           }
+
+                           .property-details {
+                             text-align: center;
+                           }
+
+                           .property-details p {
+                             text-align: center;
+                           }
+
+                           .property {
+                             position: relative;
+                           }
+
+                           .text {
+                             position: absolute;
+                             top: 20%;
+                             width: 100%;
+                             text-align: center;
+                             color: #fff;
+                             padding: 15px;
+                             font-size: 20px;
+                             line-height: 130%;
+                           }
+
+                           .text h3 {
+                             color: #fff;
+                           }
+
+                           .fh5co-property {
+                              background-color: #000;}
+
+                            .fh5co-property:hover {
+                              -webkit-filter: brightness(0.5);
+                              -moz-filter: brightness(0.5);
+                              -o-filter: brightness(0.5);
+                              -ms-filter: brightness(0.5);
+                              filter: brightness(0.5);
+                                }
