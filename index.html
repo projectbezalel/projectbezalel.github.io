@@ -241,7 +241,7 @@
         // #で始まるリンクをクリックしたら実行されます
         $('a[href^="#"]').click(function() {
           // スクロールの速度
-          var speed = 400; // ミリ秒で記述
+          var speed = 1500; // ミリ秒で記述
           var href= $(this).attr("href");
           var target = $(href == "#" || href == "" ? 'html' : href);
           var position = target.offset().top;
@@ -252,11 +252,11 @@
     </script>
 
 		<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-		
+
 		<link rel="shortcut icon" href="favicon.ico" type="favicon.ico">
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		<link rel="icon" type="image/png" href="android-chrome-192x192.png" sizes="192x192">
-		
+
 	</head>
 
 
@@ -278,6 +278,7 @@
 					<ul class="pull-left left-menu">
 						<li><a href="#fh5co-header">Intro</a></li>
 						<li><a href="#fh5co-projects">Contents</a></li>
+						<li><a href="#fh5co-organizer">Organizer</a></li>
 						<!-- <li><a href="#fh5co-subscribe">Contact</a></li> -->
 					</ul>
 					<h1 id="fh5co-logo"><a href="index.html">Bezalel pjt<span>.</span></a></h1>
@@ -404,7 +405,7 @@
 							</div>
 						</a>
 					</div>
-					
+
 					<div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
 						<a href="BASE_info.pdf" download="BASE_info.pdf" class="fh5co-project-item">
 							<img src="asoggetti-zxcBR3zNc7I-unsplash.png" alt="Image" class="img-responsive">
@@ -538,12 +539,12 @@
 		</section> -->
 		<!-- END #fh5co-features-2 -->
 
-<!--		<section id="fh5co-testimonials">
-			<div class="container">
+		<section id="fh5co-testimonials">
+			<!-- <div class="container">
 				<div class="row row-bottom-padded-sm">
 					<div class="col-md-6 col-md-offset-3 text-center">
 						<div class="fh5co-label animate-box">Testimonials</div>
-						<h2 class="fh5co-lead animate-box">Join the 1 Million Users using Our Products </h2>
+						<h2 class="fh5co-lead animate-box">Organizer Profile</h2>
 					</div>
 				</div>
 				<div class="row">
@@ -593,8 +594,36 @@
 					<input type="submit" value="Send" class="btn btn-primary">
 				</form>
 
-			</div>
-		</section> -->
+			</div> -->
+
+			<main role="main" id="fh5co-organizer">
+				<div class="container" id="bio-animate">
+					<div class="row row-padded">
+						<div class="col-md-3">
+							<div class="fh5co-label animate-box">
+								<h2 class="fh5co-section-heading to-animate">Organizer Profile<span class="fh5co-border"></span></h2>
+								<p class="trim-image-to-circle"></p>
+								<p>Shota Wakamatsu</p>
+							</div>
+						</div>
+						<div class="fh5co-label animate-box">
+						<div class="col-md-8 col-md-push-1">
+							<div class="row">
+								<div class="col-md-6 to-animate">
+									<p>1979年にクリスチャンホームに生まれました。1996年に大阪の和泉キリスト集会でバプテスマを受け、2005年の上京後は、世田谷の経堂キリスト集会に集っています。2000年にアメリカを訪問した際に見学した出版のミニストリーに感銘を受け、出版物によってクリスチャンを励まし、福音を宣べ伝えるビジョンを持ちました。このビジョンは徐々に形になりつつあります。特にクリスチャンを聖書によって励ますことに喜びがあるため、BASEプログラムを始めました。このプログラムに興味を示してくださってありがとうございます。共に神さまの心にふれましょう。</p>
+
+									<!-- <p>Accusamus in odio nostrum provident assumenda magni asperiores quia dolorem sint nulla incidunt distinctio nesciunt maiores. Ex modi est soluta consequatur. Sequi cumque tempora blanditiis repellat quisquam at a dolorum molestias itaque eaque! Dolor doloremque expedita voluptas blanditiis modi.</p> -->
+								</div>
+								<div class="col-md-6 to-animate">
+									<p>I was born in Christian Home in 1979. When I was a high school student in 1996, I was baptized at the Izumi Christian Assembly in Osaka. I moved to Tokyo in 2005. Since then, I have gathered at the Kyodo Christian Assembly in Setagaya. I visited America in 2000. And then, I was impressed by the publishing ministry. Through this visit, I had the vision to encourage Christians and preach the gospel through publications. This vision is gradually being realized. I am particularly interested in encouraging Christians in the Bible. That's why I started the BASE program. Thank you for your interest in this program. Let's touch God's heart together.</p>
+									<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolor pariatur quidem ab eos saepe suscipit ducimus vitae blanditiis vero qui quam ipsa possimus alias dolore culpa placeat nesciunt quas!</p> -->
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+
+		</section>
 		<!-- END #fh5co-subscribe -->
 
 		<footer id="fh5co-footer" style="padding-top: 0px;">
