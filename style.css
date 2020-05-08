@@ -1448,3 +1448,23 @@ body {
     background-image: url(sneeuw-bedekte-berg-omringd-door-zee-van-wolken_h2000.jpg);
   }
 }
+
+/* verge */
+.col-md-6 p {
+  text-align: justify;
+  line-height: 150%;
+}
+.trim-image-to-circle {
+    background-image: url("shotawakamatsu.jpg");  /* 表示する画像 */
+    width:  180px;       /* ※縦横を同値に */
+    height: 180px;       /* ※縦横を同値に */
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    background-position: center center;  /* 横長画像の左上を基準に表示 */
+    display: inline-block;          /* 複数の画像を横に並べたい場合 */
+    background-size:cover;
+    border: 12px solid rgba(190,150,162); /* 半透明の枠線を付加 */
+}
+
+.fh5co-label {
+  text-align: center;
+}
