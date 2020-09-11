@@ -328,12 +328,6 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
-@media screen and (max-width: 480px) {
-  .space {
-    height: 300px;
-  }
-}
-
 #gtco-header,
 #gtco-counter,
 .gtco-bg {
@@ -1387,5 +1381,11 @@ form label {
   .box {
     float: none !important;
     width: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .col-md-push-7 {
+    height: 260px;
   }
 }
