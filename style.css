@@ -329,7 +329,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 @media screen and (max-width: 480px) {
-  .col-md-6 .col-md-push-7 .animate-box {
+  .col-md-6 {
     height: 300px;
   }
 }
