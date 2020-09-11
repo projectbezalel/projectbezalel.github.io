@@ -328,6 +328,12 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .col-md-6 .col-md-push-7 .animate-box .fadeInRight .animated-fast {
+    height: 300px;
+  }
+}
+
 #gtco-header,
 #gtco-counter,
 .gtco-bg {
@@ -432,6 +438,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   z-index: 10;
 }
+
 @media screen and (max-width: 768px) {
   .gtco-cover {
     height: 600px;
